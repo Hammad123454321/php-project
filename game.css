@@ -1,0 +1,95 @@
+body{
+    align-items: center;
+    background-color: green;
+    padding: auto;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+
+}
+.con{
+    max-width: 50rem;
+    align-content: center;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 3rem;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 50px 50px 50px 50px rgb(56, 117, 71);
+    
+}
+.sss,h1,.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    font-family: 'Press start 2P';
+}
+h1{
+    font-size: 3rem;
+    font-family: serif;
+    filter: invert(30%);
+}
+.number{
+    font-size: 3rem;
+    padding: 1rem;
+    background-color: black;
+    color: aliceblue;
+    width: 3rem;
+    margin-left: 20rem;
+    
+   
+ 
+ 
+    
+}
+.left{
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1rem;
+  padding-top: 2rem;
+   
+    
+}
+.right{
+text-align:initial ;
+font-size: 3rem;
+}
+.ss{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 4rem;
+}
+.guess{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: none;
+    font-size: 4rem;
+    outline: none;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+}
+.btn-chenk{
+    padding: 5px;
+    border-radius: 1rem;
+    background-color: brown;
+    font-size: 3rem;
+}
+.again{
+    padding: 1rem;
+    
+    font-size: 2rem;
+    border-radius: 40%;
+    background-color: brown;
+}
+.sss{
+    font-family: sans-serif;
+    font-weight: 700;
+}
